@@ -26,5 +26,5 @@ def Chicken():
     #print("cluck")
   
 # Class of Goldenretrieval that takes an instance of dog 
-def Goldenretrieval(Dog):
-  pass
+def Goldenretriever(Dog):
+  breed = "Golden retriever"

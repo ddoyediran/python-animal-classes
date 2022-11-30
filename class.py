@@ -17,7 +17,7 @@ class Dog(Animal):
     #print("woof!)
     
   def fetch(self, item):
-    print("I fetched" + str(item))
+    print("I fetched " + str(item))
     
  
 # Class of Chicken

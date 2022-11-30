@@ -23,7 +23,7 @@ def Chicken():
   legs = 2
   
   #def speak(self):
-    #print("click")
+    #print("cluck")
   
 # Class of Goldenretrieval that takes an instance of dog 
 def Goldenretrieval(Dog):

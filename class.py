@@ -9,7 +9,7 @@ class Animal():
 
 
 # Class of Dog    
-class Dog():
+class Dog(Animal):
   legs = 4
   #def speak(self):
     #print("woof!)
@@ -19,7 +19,7 @@ class Dog():
     
  
 # Class of Chicken
-def Chicken():
+def Chicken(Animal):
   legs = 2
   
   #def speak(self):

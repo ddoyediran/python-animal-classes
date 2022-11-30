@@ -1,24 +1,30 @@
 class Animal():
+      legs = 0
   def __init__(self):
     self.name = name
-    self.legs = legs
     self.owner = owner
    
   def speak(sound):
     print(sound)
 
 
-    
+# Class of Dog    
 class Dog():
-  
-  def __init__(self):
-    self.name = name
-    self.legs = legs
-    self.owner = owner
-   
-  #def speak(sound):
-    #print(sound)
+  legs = 4
+  #def speak(self):
+    #print("woof!)
     
-  def fetch(item):
+  def fetch(self, item):
     print("I fetched" + str(item))
+    
+ 
+# Class of Chicken
+def Chicken():
+  legs = 2
   
+  #def speak(self):
+    #print("click")
+  
+# Class of Goldenretrieval that takes an instance of dog 
+def Goldenretrieval(Dog):
+  pass

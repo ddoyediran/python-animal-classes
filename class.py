@@ -1,7 +1,7 @@
 class Animal():
-      legs = 0
-      sound = "say something!"
-  def __init__(self):
+  legs = 0
+  sound = "say something!"
+  def __init__(self, name, owner):
     self.name = name
     self.owner = owner
    

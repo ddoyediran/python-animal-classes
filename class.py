@@ -16,8 +16,8 @@ class Dog():
     self.legs = legs
     self.owner = owner
    
-  def speak(sound):
-    print(sound)
+  #def speak(sound):
+    #print(sound)
     
   def fetch(item):
     print("I fetched" + str(item))

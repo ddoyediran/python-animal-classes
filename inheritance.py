@@ -10,7 +10,7 @@ class Animal:
 
 
 # Class of Dog    
-def Dog(Animal):
+class Dog(Animal):
   sound = "wolf!"
   legs = 4
   #def speak(self):
@@ -21,7 +21,7 @@ def Dog(Animal):
     
  
 # Class of Chicken
-def Chicken(Animal):
+class Chicken(Animal):
   sound = "cluck!"
   legs = 2
   
@@ -29,7 +29,7 @@ def Chicken(Animal):
     #print("cluck")
   
 # Class of Goldenretrieval that takes an instance of dog 
-def Goldenretriever(Dog):
+class Goldenretriever(Dog):
   breed = "Golden retriever"
 
 

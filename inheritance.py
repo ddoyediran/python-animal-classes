@@ -10,7 +10,7 @@ class Animal:
 
 
 # Class of Dog    
-class Dog(Animal):
+def Dog(Animal):
   sound = "wolf!"
   legs = 4
   #def speak(self):
